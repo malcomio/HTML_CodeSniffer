@@ -133,7 +133,7 @@ _global.HTMLCS_WCAG2AAA_Sniffs_Principle1_Guideline1_1_1_1_1 = {
             }
         };
 
-        elements = HTMLCS.util.getAllElements(top, 'img, area, input[type="image"]');
+        var elements = HTMLCS.util.getAllElements(top, 'img, area, input[type="image"]');
 
         for (var el = 0; el < elements.length; el++) {
             var element = elements[el];
